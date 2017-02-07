@@ -65,7 +65,8 @@ html {
     margin-top: 10px;
     color: #969696;
 }
-.chef-social-network span:hover{
+
+.chef-social-network span:hover {
     color: dodgerblue;
 }
 
@@ -375,7 +376,8 @@ html {
     text-align: center;
     vertical-align: middle;
 }
-.dish-type div h2{
+
+.dish-type div h2 {
     margin-top: 0px;
 }
 
@@ -387,4 +389,50 @@ html {
 .black {
     background-color: #363636;
     color: white;
+}
+
+.mosaicflow__column {
+    float: left;
+}
+
+.mosaicflow__item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.view {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+    border: 5px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 0px 0px 5px #aaa;
+    cursor: default;
+}
+
+.view .mask, .view .content {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.view img {
+    display: block;
+    position: relative;
+}
+
+.view a.info {
+    background:url(../images/link.png) center no-repeat;
+    display: inline-block;
+    text-decoration: none;
+    padding:0;
+    text-indent:-9999px;
+    width:20px;
+    height:20px;
 }
