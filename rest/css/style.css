@@ -4,11 +4,11 @@ body {
     margin-bottom: 300px;
 
 }
+
 html {
     position: relative;
     min-height: 100%;
 }
-
 
 .navbar {
     margin-bottom: 20px;
@@ -298,6 +298,7 @@ html {
     position: relative;
     bottom: 0;
 }
+
 #footer {
     position: absolute;
     bottom: 0;
@@ -309,4 +310,78 @@ html {
 
 .contacts {
     margin-top: 50px;
+}
+
+.receipts {
+    min-height: 500px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background: url("../images/wall-back.jpg") center center no-repeat;
+    -moz-background-size: cover; /* Firefox до 4.0 */
+    -webkit-background-size: cover; /* Safari и Chrome */
+    -o-background-size: cover; /* Opera до версии 10.53 */
+    background-size: cover; /* CSS3 */
+}
+
+.title-receipts {
+    color: white;
+}
+
+.custom-title:before,
+.custom-title:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+    height: 6px;
+    border-bottom: 2px solid #ff0000;
+    border-top: 2px solid #ff0000;
+}
+
+.custom-title:before {
+    margin-left: -100%;
+}
+
+.custom-title:after {
+    margin-right: -100%;
+}
+
+.receipts-item {
+    background-color: white;
+}
+
+.no-padding {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.dish-type {
+    padding: 10px;
+    background-color: white;
+    height: 186px;
+    display: table;
+}
+
+.dish-type div {
+    border: 1px solid gainsboro;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.dish-type div h2{
+    margin-top: 0px;
+}
+
+.gray-text {
+    color: grey;
+    text-transform: uppercase;
+}
+
+.black {
+    background-color: #363636;
+    color: white;
 }
