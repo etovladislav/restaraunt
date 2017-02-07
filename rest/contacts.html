@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Хеллоу</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="container-fluid">
+
+    <!-- Static navbar -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/logo-head.png" class="img-responsive" width="100"
+                                                      alt=""></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Ассоциации</a></li>
+                    <li><a href="#">Вступить</a></li>
+                    <li><a href="#">Рецепты</a></li>
+                    <li><a href="#">Афиша</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Личный кабинет</a></li>
+                    <li><input type="text" class="input-navbar"></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">Рус <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Тат</a></li>
+                            <li><a href="#">Eng</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+    </nav>
+    <div class="row">
+        <div class="contacts col-xs-10 col-xs-offset-2">
+            <div class="col-sm-3 contact-item">
+                <img src="images/contacts-icon.png" alt="" class="img-responsive image-center" width="70">
+                <p class="title-contact">OUR ADDRES</p>
+                <p class="contact-info">Russia, Zelenodolsk <br>
+                    Frunze 9, 122 <br>
+                    Nice
+                </p>
+            </div>
+            <div class="col-sm-3 contact-item">
+                <img src="images/contacts-icon.png" alt="" class="img-responsive image-center" width="70">
+                <p class="title-contact">OUR PHONE NUMBER</p>
+                <p class="contact-info">
+                    Local: + 7(965) 02-00-89 123 12<br>
+                    Mobile: + 7(965) 02-00-89<br>
+                    Hot: + 7(965) 02-00-89<br>
+                </p>
+            </div>
+            <div class="col-sm-3 contact-item">
+                <img src="images/contacts-icon.png" alt="" class="img-responsive image-center" width="70">
+                <p class="title-contact">EMAIL ADDRESS</p>
+                <p class="contact-info">
+                    etovladislav@yandex.ru<br>
+                    mikl778890@yandex.ru<br>
+                    pidr@yandex.ru<br>
+                </p>
+            </div>
+        </div>
+    </div>
+</div> <!-- /container -->
+<div id="footer">
+    <div id="map"></div>
+</div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhTVS3UrFDBMJJEMSypFU0BW2cTUEoDCQ&signed_in=true"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/map.js"></script>
+</body>
+</html>
