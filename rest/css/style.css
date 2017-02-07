@@ -65,6 +65,9 @@ html {
     margin-top: 10px;
     color: #969696;
 }
+.chef-social-network span:hover{
+    color: dodgerblue;
+}
 
 .reservation {
     margin-top: 100px;
