@@ -58,41 +58,96 @@
             </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
     </nav>
+    <style>
+        .middle {
+            height: 100%;
+            width: 100%;
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            background-color: rgba(255, 88, 4, 0.8);
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%)
+        }
+
+        .mosaicflow__item {
+            position: relative;
+        }
+
+        .mosaicflow__item:hover .middle {
+            opacity: 1;
+        }
+
+        .text {
+            color: white;
+            font-size: 16px;
+            padding: 16px 32px;
+        }
+    </style>
     <div class="row">
         <div class="gallery">
             <div class="clearfix mosaicflow">
                 <div class="mosaicflow__item">
                     <img width="500" height="300" src="images/gal.jpg" alt="">
+                    <div class="middle">
+                        <div class="text">View Large</div>
+                    </div>
                 </div>
                 <div class="mosaicflow__item">
                     <img width="500" height="300" src="images/gal.jpg" alt="">
-
+                    <div class="middle">
+                        <div class="text">View Large</div>
+                    </div>
                 </div>
                 <div class="mosaicflow__item">
                     <img width="500" height="300" src="images/gal.jpg" alt="">
-
+                    <div class="middle">
+                        <div class="text">View Large</div>
+                    </div>
                 </div>
                 <div class="mosaicflow__item">
                     <img width="500" height="300" src="images/gal.jpg" alt="">
-
-                </div>
-                <div class="mosaicflow__item">
-                    <img width="10" height="300" src="images/gal.jpg" alt="">
-                </div>
-                <div class="mosaicflow__item">
-                    <img width="500" height="300" src="images/gal.jpg" alt="">
+                    <div class="middle">
+                        <div class="text">View Large</div>
+                    </div>
                 </div>
                 <div class="mosaicflow__item">
                     <img width="500" height="300" src="images/gal.jpg" alt="">
+                    <div class="middle">
+                        <div class="text">View Large</div>
+                    </div>
                 </div>
                 <div class="mosaicflow__item">
                     <img width="500" height="300" src="images/gal.jpg" alt="">
+                    <div class="middle">
+                        <div class="text">View Large</div>
+                    </div>
                 </div>
                 <div class="mosaicflow__item">
                     <img width="500" height="300" src="images/gal.jpg" alt="">
+                    <div class="middle">
+                        <div class="text">View Large</div>
+                    </div>
                 </div>
                 <div class="mosaicflow__item">
                     <img width="500" height="300" src="images/gal.jpg" alt="">
+                    <div class="middle">
+                        <div class="text">View Large</div>
+                    </div>
+                </div>
+                <div class="mosaicflow__item">
+                    <img width="500" height="300" src="images/gal.jpg" alt="">
+                    <div class="middle">
+                        <div class="text">View Large</div>
+                    </div>
+                </div>
+                <div class="mosaicflow__item">
+                    <img width="500" height="300" src="images/gal.jpg" alt="">
+                    <div class="middle">
+                        <div class="text">View Large</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -109,143 +164,62 @@
                 </p>
             </div>
             <div class="chefs col-xs-8 col-xs-offset-2">
-                <div class="chef-item col-lg-3 col-md-6">
-                    <div class="chef-image">
-                        <img src="images/chef.png" class="img-responsive image-center" alt="">
-                    </div>
-                    <div class="chef-name">
-                        JOHN DOE
-                    </div>
-                    <div class="chef-skill">
-                        CHEF, CO-FOUNDER
-                    </div>
-                    <div class="chef-social-network">
-                        <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle-thin fa-stack-2x"></i>
-                          <i class="fa fa-facebook fa-stack-1x"></i>
-                        </span>
+                <div class="owl-carousel">
 
-                        <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle-thin fa-stack-2x"></i>
-                          <i class="fa fa-twitter fa-stack-1x"></i>
-                        </span>
-
-                        <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle-thin fa-stack-2x"></i>
-                          <i class="fa fa-google-plus fa-stack-1x"></i>
-                        </span>
-
-                        <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle-thin fa-stack-2x"></i>
-                          <i class="fa fa-behance fa-stack-1x"></i>
-                        </span>
+                    <div class="chef-item">
+                        <div class="chef-image">
+                            <img src="images/chef.png" class="img-responsive image-center" alt="">
+                        </div>
+                        <div class="chef-name">
+                            JOHN DOE
+                        </div>
+                        <div class="chef-skill">
+                            CHEF, CO-FOUNDER
+                        </div>
+                    </div>
+                    <div class="chef-item">
+                        <div class="chef-image">
+                            <img src="images/chef.png" class="img-responsive image-center" alt="">
+                        </div>
+                        <div class="chef-name">
+                            JOHN DOE
+                        </div>
+                        <div class="chef-skill">
+                            CHEF, CO-FOUNDER
+                        </div>
+                    </div>
+                    <div class="chef-item">
+                        <div class="chef-image">
+                            <img src="images/chef.png" class="img-responsive image-center" alt="">
+                        </div>
+                        <div class="chef-name">
+                            JOHN DOE
+                        </div>
+                        <div class="chef-skill">
+                            CHEF, CO-FOUNDER
+                        </div>
+                    </div>
+                    <div class="chef-item">
+                        <div class="chef-image">
+                            <img src="images/chef.png" class="img-responsive image-center" alt="">
+                        </div>
+                        <div class="chef-name">
+                            JOHN DOE
+                        </div>
+                        <div class="chef-skill">
+                            CHEF, CO-FOUNDER
+                        </div>
                     </div>
                 </div>
-                <div class="chef-item col-lg-3 col-md-6">
-                    <div class="chef-image">
-                        <img src="images/chef.png" class="img-responsive image-center" alt="">
-                    </div>
-                    <div class="chef-name">
-                        JOHN DOE
-                    </div>
-                    <div class="chef-skill">
-                        CHEF, CO-FOUNDER
-                    </div>
-                    <div class="chef-social-network">
-                        <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle-thin fa-stack-2x"></i>
-                          <i class="fa fa-facebook fa-stack-1x"></i>
-                        </span>
 
-                        <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle-thin fa-stack-2x"></i>
-                          <i class="fa fa-twitter fa-stack-1x"></i>
-                        </span>
-
-                        <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle-thin fa-stack-2x"></i>
-                          <i class="fa fa-google-plus fa-stack-1x"></i>
-                        </span>
-
-                        <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle-thin fa-stack-2x"></i>
-                          <i class="fa fa-behance fa-stack-1x"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="chef-item col-lg-3 col-md-6">
-                    <div class="chef-image">
-                        <img src="images/chef.png" class="img-responsive image-center" alt="">
-                    </div>
-                    <div class="chef-name">
-                        JOHN DOE
-                    </div>
-                    <div class="chef-skill">
-                        CHEF, CO-FOUNDER
-                    </div>
-                    <div class="chef-social-network">
-                        <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle-thin fa-stack-2x"></i>
-                          <i class="fa fa-facebook fa-stack-1x"></i>
-                        </span>
-
-                        <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle-thin fa-stack-2x"></i>
-                          <i class="fa fa-twitter fa-stack-1x"></i>
-                        </span>
-
-                        <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle-thin fa-stack-2x"></i>
-                          <i class="fa fa-google-plus fa-stack-1x"></i>
-                        </span>
-
-                        <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle-thin fa-stack-2x"></i>
-                          <i class="fa fa-behance fa-stack-1x"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="chef-item col-lg-3 col-md-6">
-                    <div class="chef-image">
-                        <img src="images/chef.png" class="img-responsive image-center" alt="">
-                    </div>
-                    <div class="chef-name">
-                        JOHN DOE
-                    </div>
-                    <div class="chef-skill">
-                        CHEF, CO-FOUNDER
-                    </div>
-                    <div class="chef-social-network">
-                        <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle-thin fa-stack-2x"></i>
-                          <i class="fa fa-facebook fa-stack-1x"></i>
-                        </span>
-
-                        <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle-thin fa-stack-2x"></i>
-                          <i class="fa fa-twitter fa-stack-1x"></i>
-                        </span>
-
-                        <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle-thin fa-stack-2x"></i>
-                          <i class="fa fa-google-plus fa-stack-1x"></i>
-                        </span>
-
-                        <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle-thin fa-stack-2x"></i>
-                          <i class="fa fa-behance fa-stack-1x"></i>
-                        </span>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
     <div class="row">
         <div class="reservation">
-            <div class="col-lg-6 col-sm-6 col-xs-12">
-                <img src="images/reservation.png" alt="" class="img-responsive">
+            <div class="col-lg-6 col-sm-6 col-xs-12 reservation-block reservation-left">
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12" id="reservation-form">
+            <div class="col-md-6 col-sm-6 col-xs-12 reservation-block" id="reservation-form">
                 <div class="form">
                     <form class="form-horizontal" role="form">
                         <div class="form-group">
@@ -351,7 +325,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/owl.carousel.js"></script>
 <script>
-    $('.owl-carousel').owlCarousel({
+    $('.owl-carousel').eq(1).owlCarousel({
         rtl: true,
         loop: true,
         margin: 10,
@@ -365,6 +339,22 @@
             },
             1000: {
                 items: 3
+            }
+        }
+    });
+    $('.owl-carousel').eq(0).owlCarousel({
+        rtl: true,
+        loop: true,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 4
             }
         }
     })

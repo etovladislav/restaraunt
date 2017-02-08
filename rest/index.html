@@ -8,6 +8,8 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -21,7 +23,7 @@
 <div class="container-fluid">
 
     <!-- Static navbar -->
-    <nav class="navbar">
+    <nav class="navbar navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
@@ -43,19 +45,20 @@
                     <li><a href="#">Новости</a></li>
                     <li><a href="#">Контакты</a></li>
                     <li><a href="#">Личный кабинет</a></li>
-                    <li><input type="text" class="input-navbar"></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                           aria-expanded="false">Рус <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Тат</a></li>
-                            <li><a href="#">Eng</a></li>
-                        </ul>
-                    </li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
     </nav>
+    <div class="row full-height">
+        <div class="header-box">
+            <div class="header-text">
+                <img src="images/logos-header-text.png" alt="">
+                <p>
+                    МЕЖДУНАРОДНАЯ АССОЦИАЦИЯ КУЛИНАРОВ <br>
+                    ТАТАРСКОЙ НАЦИОНАЛЬНОЙ КУХНИ</p>
+            </div>
+        </div>
+    </div>
     <div class="row">
         <div class="about-us col-md-8 col-md-offset-2">
             <div class="col-md-6">
@@ -85,10 +88,10 @@
                 <em>Call for reservation</em>
             </div>
             <div class="col-xs-8 col-xs-offset-2">
-                <div class="col-xs-3 no-padding">
-                    <img src="images/receipts-img.jpg" alt="" class="img-responsive">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 no-padding image-container eq-height">
+                    <img src="images/receipts-img.jpg" alt="">
                 </div>
-                <div class="col-xs-3 no-padding dish-type">
+                <div class="col-lg-3 col-md-8 col-sm-6 col-xs-12 no-padding dish-type eq-height">
                     <div>
                         <img src="images/icon-footer.jpg" alt="" width="70">
                         <h2>Обед</h2>
@@ -99,10 +102,10 @@
 
                     </div>
                 </div>
-                <div class="col-xs-3 no-padding">
-                    <img src="images/receipts-img.jpg" alt="" class="img-responsive">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 no-padding image-container eq-height">
+                    <img src="images/receipts-img.jpg" alt="">
                 </div>
-                <div class="col-xs-3 no-padding dish-type">
+                <div class="col-lg-3 col-md-8 col-sm-6 col-xs-12  no-padding dish-type eq-height">
                     <div>
                         <img src="images/icon-footer.jpg" alt="" width="70">
                         <h2>DESERT</h2>
@@ -115,7 +118,7 @@
                 </div>
             </div>
             <div class="col-xs-8 col-xs-offset-2">
-                <div class="col-xs-3 no-padding dish-type black">
+                <div class="col-lg-3 col-md-8 col-sm-6 col-xs-12 no-padding dish-type eq-height black">
                     <div>
                         <img src="images/icon-footer.jpg" alt="" width="70">
                         <h2>Обед</h2>
@@ -126,10 +129,10 @@
 
                     </div>
                 </div>
-                <div class="col-xs-3 no-padding">
-                    <img src="images/receipts-img.jpg" alt="" class="img-responsive">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 no-padding image-container eq-height">
+                    <img src="images/receipts-img.jpg" alt="">
                 </div>
-                <div class="col-xs-3 no-padding dish-type black">
+                <div class="col-lg-3 col-md-8 col-sm-6 col-xs-12  no-padding dish-type black eq-height">
                     <div>
                         <img src="images/icon-footer.jpg" alt="" width="70">
                         <h2>DESERT</h2>
@@ -140,15 +143,264 @@
 
                     </div>
                 </div>
-                <div class="col-xs-3 no-padding">
-                    <img src="images/receipts-img.jpg" alt="" class="img-responsive">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 no-padding image-container eq-height">
+                    <img src="images/receipts-img.jpg" alt="">
                 </div>
             </div>
         </div>
     </div>
-</div> <!-- /container -->
+    <div class="row">
+        <div class="col-xs-12" id="chefs">
+            <div class="meet-our-chef">
+                <img src="images/meet.jpg" alt="" class="img-responsive image-center">
+            </div>
+            <div class="meet-text">
+                <p class="text-center">
+                    One morning when Gregor Samsa woke from trobled dreams, he found himself <br> transformed in his bed
+                    into a horrible vermin.
+                </p>
+            </div>
+            <div class="chefs col-xs-8 col-xs-offset-2">
+                <div class="owl-carousel">
 
+                    <div class="chef-item">
+                        <div class="chef-image">
+                            <img src="images/chef.png" class="img-responsive image-center" alt="">
+                        </div>
+                        <div class="chef-name">
+                            JOHN DOE
+                        </div>
+                        <div class="chef-skill">
+                            CHEF, CO-FOUNDER
+                        </div>
+                    </div>
+                    <div class="chef-item">
+                        <div class="chef-image">
+                            <img src="images/chef.png" class="img-responsive image-center" alt="">
+                        </div>
+                        <div class="chef-name">
+                            JOHN DOE
+                        </div>
+                        <div class="chef-skill">
+                            CHEF, CO-FOUNDER
+                        </div>
+                    </div>
+                    <div class="chef-item">
+                        <div class="chef-image">
+                            <img src="images/chef.png" class="img-responsive image-center" alt="">
+                        </div>
+                        <div class="chef-name">
+                            JOHN DOE
+                        </div>
+                        <div class="chef-skill">
+                            CHEF, CO-FOUNDER
+                        </div>
+                    </div>
+                    <div class="chef-item">
+                        <div class="chef-image">
+                            <img src="images/chef.png" class="img-responsive image-center" alt="">
+                        </div>
+                        <div class="chef-name">
+                            JOHN DOE
+                        </div>
+                        <div class="chef-skill">
+                            CHEF, CO-FOUNDER
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="reservation">
+            <div class="col-lg-6 col-sm-6 col-xs-12 reservation-block reservation-left">
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12 reservation-block" id="reservation-form">
+                <div class="form">
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <div class="col-md-8 col-md-offset-2">
+                                <div class="form-group row">
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" placeholder="Name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" placeholder="Date">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" placeholder="Time">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" placeholder="Number of persons">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" placeholder="Phone number">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" placeholder="Branch Name">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <textarea name="asd" id="" cols="30" class="form-control" rows="3"
+                                                  placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="col-md-12 button">
+                                        <a href="#"> <i class="fa fa-heart"></i> Thanks</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="menu">
+            <div class="meet-our-chef">
+                <img src="images/meet.jpg" alt="" class="img-responsive image-center">
+            </div>
+            <div class="meet-text">
+                <p class="text-center">
+                    One morning when Gregor Samsa woke from trobled dreams, he found himself <br> transformed in his bed
+                    into a horrible vermin.
+                </p>
+            </div>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="menu-head-image">
+                        <img src="images/menu.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="menu-item">
+                        <div class="dish">
+                            <div class="price">
+                                <div class="left">SPICY THAI STYLE</div>
+                                <div class="right"><span>$</span><span class="price-color">20.0</span></div>
+                                <div class="dotted"></div>
+                            </div>
+                            <div class="description">
+                                Kak zhe zaeblo eto vse ebaniy vrot blyat'! asdasd asd asd asd asd asd asd asd asd
+                            </div>
+                        </div>
+                        <div class="dish">
+                            <div class="price">
+                                <div class="left">SPICY THAI STYLE</div>
+                                <div class="right"><span>$</span><span class="price-color">20.0</span></div>
+                                <div class="dotted"></div>
+                            </div>
+                            <div class="description">
+                                Kak zhe zaeblo eto vse ebaniy vrot blyat'!
+                            </div>
+                        </div>
+                        <div class="dish">
+                            <div class="price">
+                                <div class="left">SPICY THAI STYLE</div>
+                                <div class="right"><span>$</span><span class="price-color">20.0</span></div>
+                                <div class="dotted"></div>
+                            </div>
+                            <div class="description">
+                                Kak zhe zaeblo eto vse ebaniy vrot blyat'!
+                            </div>
+                        </div>
+                        <div class="dish">
+                            <div class="price">
+                                <div class="left">SPICY THAI STYLE</div>
+                                <div class="right"><span>$</span><span class="price-color">20.0</span></div>
+                                <div class="dotted"></div>
+                            </div>
+                            <div class="description">
+                                Kak zhe zaeblo eto vse ebaniy vrot blyat'!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="contacts col-lg-10 col-lg-offset-1 col-md-12">
+            <div class="col-sm-4 contact-item">
+                <div>
+                    <img src="images/contacts-icon.png" alt="" class="img-responsive image-center" width="70">
+                    <p class="title-contact">OUR ADDRES</p>
+                    <p class="contact-info">Russia, Zelenodolsk <br>
+                        Frunze 9, 122 <br>
+                        Nice
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4 contact-item">
+                <div>
+                    <img src="images/contacts-icon.png" alt="" class="img-responsive image-center" width="70">
+                    <p class="title-contact">OUR PHONE NUMBER</p>
+                    <p class="contact-info">
+                        Local: + 7(965) 02-00-89 123 12<br>
+                        Mobile: + 7(965) 02-00-89<br>
+                        Hot: + 7(965) 02-00-89<br>
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4 contact-item">
+                <div>
+                    <img src="images/contacts-icon.png" alt="" class="img-responsive image-center" width="70">
+                    <p class="title-contact">EMAIL ADDRESS</p>
+                    <p class="contact-info">
+                        etovladislav@yandex.ru<br>
+                        mikl778890@yandex.ru<br>
+                        pidr@yandex.ru<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row" style="height: 100%">
+        <div id="footer" class="col-xs-12">
+            <div id="map"></div>
+        </div>
+    </div>
+</div> <!-- /container -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script>
+    $('.owl-carousel').eq(1).owlCarousel({
+        rtl: true,
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 3
+            }
+        }
+    });
+    $('.owl-carousel').eq(0).owlCarousel({
+        rtl: true,
+        loop: true,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 4
+            }
+        }
+    })
+
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhTVS3UrFDBMJJEMSypFU0BW2cTUEoDCQ&signed_in=true"></script>
+<script src="js/map.js"></script>
 </body>
 </html>
