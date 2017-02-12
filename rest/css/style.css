@@ -191,7 +191,7 @@ html {
 }
 
 .price-color {
-    color: #ff7d23;
+    color: #ff0000;
 }
 
 .menu .menu-item .description {
@@ -529,3 +529,35 @@ html {
     }
 }
 
+.bordered {
+    opacity: 0.7;
+    height: 80px;
+    border-right: 3px solid white;
+    border-top: 3px solid white;
+}
+
+.bordered:hover{
+    opacity: 1;
+}
+
+.active {
+    opacity: 1;
+}
+
+.dish-name {
+    font-size: 28px;
+}
+
+.dish-description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(160, 160, 160);
+}
+
+.hr {
+    height: 4px;
+    background-color: #ff0000;
+    width: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
