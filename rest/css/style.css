@@ -203,9 +203,10 @@ html {
     margin-top: 20px;
 }
 
-.item {
-    padding: 10px;
+.mosaicflow__item {
+    border: 1px solid white;
 }
+
 
 .button {
     margin-top: 20px;
@@ -505,13 +506,26 @@ html {
 .icon-bar{
     background-color: white;
 }
+.menu-item {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.thumb {
+    margin-right: 18px;
+    opacity: 0.7;
+}
+.thumb:hover{
+    opacity: 1;
+}
+.thumb:last-child{
+    margin-right: 0px;
+}
+
+
 @media screen and (max-width: 767px ){
     .header-text {
         font-size: 14px;
     }
 }
 
-.menu-item {
-    padding-right: 15px;
-    padding-left: 15px;
-}
